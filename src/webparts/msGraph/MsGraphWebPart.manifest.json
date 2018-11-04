@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "5908940c-b449-4012-989f-69ab8b6796d8",
+  "alias": "MsGraphWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "msgraph" },
+    "description": { "default": "ms-graph description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "msgraph"
+    }
+  }]
+}
